@@ -31,7 +31,7 @@ async def help_handler(c: Client, m: "types.Message"):
     await add_user_to_database(c, m)
     await c.send_flooded_message(
         chat_id=m.chat.id,
-        text="I can rename media without downloading it!\n"
+        text="<img src="https://te.legra.ph/file/f674075af0582fd1c822f.jpg" alt="alpherenamebot"  />I can rename media without downloading it!\n"
              "Speed depends on your media DC.\n\n"
              "Just send me media and reply to it with /rename command.\n\n"
              "To set custom thumbnail reply to any image with /set_thumbnail\n\n"
