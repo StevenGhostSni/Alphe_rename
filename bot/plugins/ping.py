@@ -15,7 +15,7 @@ async def ping_handler(c: Client, m: "types.Message"):
         chat_id=m.chat.id,
         text="Hey there, I am ᴀʟᴘʜᴇ ʀᴇɴᴀᴍᴇ Bot!\n\n"
              "I can rename media without downloading it!\n"
-             "Just send me media and reply to it with /rename command."
+             "Just send me media and reply to it with /rename command.\n"
              "Bot created by: @Lucifer_x0o",
         reply_markup=types.InlineKeyboardMarkup([[
            types.InlineKeyboardButton("Show Settings",
@@ -35,7 +35,7 @@ async def help_handler(c: Client, m: "types.Message"):
              "Speed depends on your media DC.\n\n"
              "Just send me media and reply to it with /rename command.\n\n"
              "To set custom thumbnail reply to any image with /set_thumbnail\n\n"
-             "To see custom thumbnail press /show_thumbnail"
+             "To see custom thumbnail press /show_thumbnail\n\n"
              "Cantact @Lucifer_x0o for more help",
         reply_markup=types.InlineKeyboardMarkup([[
            types.InlineKeyboardButton("Show Settings",
