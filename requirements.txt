@@ -1,4 +1,4 @@
-Pyrogram~=1.4.7
+Pyrogram
 TgCrypto
 pyromod==1.5
 python-dotenv
