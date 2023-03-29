@@ -6,6 +6,7 @@ from pyrogram import Client as RawClient
 from pyrogram.storage import Storage
 from configs import Config
 from bot.core.new import New
+from pyrogram.enums import ParseMode
 
 LOGGER = Config.LOGGER
 log = LOGGER.getLogger(__name__)
@@ -28,6 +29,7 @@ class Client(RawClient, New):
     async def start(self):
         await super().start()
         log.info("Bot Started!")
+        self.set_parse_mode(ParseMode.HTML)
 
     async def stop(self, *args):
         await super().stop()
